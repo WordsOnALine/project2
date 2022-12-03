@@ -14,13 +14,28 @@ body {
 	margin-right: auto;
 	width: 70%;
    
-	background-color: gray;
+	background-color: black;
 	font-family: Verdana, Geneva, sans-serif;
 	outline: 2px solid red;
 }
 
 div > h2 {
 	text-align: center;
+}
+
+
+div.gallery {
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background-color: #047bac;
+	outline: 2px solid blue;
+}
+
+div.gallery > img{
+	
+	width: 600px;
+	height: 400px;
 }
 
 li {
@@ -40,12 +55,12 @@ ul {
 
 ul {
  outline: 2px solid blue;
- background-color: white;
+ background-color: red;
  padding: 15px 30px;
 }
 ul > * {
  outline: 2px solid blue;
-
+ background-color: gray;
  padding: 15px 30px;
 }
 
@@ -55,6 +70,7 @@ h2 {
 
 header {
 	grid-area: header;
+	background-color: #00577b;
 }
 
 section {
@@ -64,6 +80,7 @@ section {
 footer{
 	grid-area: footer;
 	outline: 2px solid blue;
+	background-color: #00577b;
 }
 
 header img {
@@ -75,9 +92,10 @@ div#myDIV {
 
   display: grid;
   gap: 10px;
-  background-color: gray;
+  background-color: #009dde;
   padding: 10px;
   grid-template-areas: '. myArea myArea' 'myArea2 myArea2 myArea2';
+  outline: 2px solid blue;
 }
 
 div#myDIV div {
@@ -104,7 +122,26 @@ div.item3 {
   grid-area: myArea2;
 }
 
+textarea {
+ margin-top: 10px;
+ height: 100px;
+ width: 95%;
+}
 
+div.formRow {
+ display: flex;
+ flex-flow: row wrap;
+ margin: 7px 0px;
+}
+
+div.formRow > * {
+ flex: 1 1 150px;
+}
+
+div#buttons {
+ text-align: center;
+ width: 100%;
+}
 
 
 
