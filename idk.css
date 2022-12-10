@@ -32,7 +32,7 @@ div.gallery {
 	outline: 2px solid blue;
 }
 
-div.gallery > img{
+div.gallery > a > img{
 	
 	width: 600px;
 	height: 400px;
@@ -103,6 +103,8 @@ div#myDIV div {
   
 }
 
+
+
 div.item1 {
 
 }
@@ -143,5 +145,11 @@ div#buttons {
  width: 100%;
 }
 
+div.accordion-item {
+	background-color: #009dde;
+}
 
 
+button.accordion-button {
+	background-color: #009dde;
+}
