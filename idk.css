@@ -68,6 +68,12 @@ h2 {
 	text-align: center;
 }
 
+h3 > a{
+	outline: 4px solid blue;
+	background-color: #047bac;
+	color: red;
+}
+
 header {
 	grid-area: header;
 	background-color: #00577b;
